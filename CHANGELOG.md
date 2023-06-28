@@ -1,6 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [Unreleased] - Development
+
+## [13.0.0.1]
+### Added
+
+### Breaking Changed
+- Berry `bool( [] )` and `bool( {} )` now evaluate as `false` (#18986)
+
+### Changed
+- Matter support for temperature in Fahrenheit (`SetOption8 1`) (#18987)
+
+### Fixed
+- Berry various fixes for Walrus Operator (#18982)
+
+### Removed
+
+
 ## [Released]
 
 ## [13.0.0] 20230626
